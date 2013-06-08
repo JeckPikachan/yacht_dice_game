@@ -13,9 +13,3 @@ until game.over?
     puts "You got #{player.points} points total.\n"
   end
 end
-a = 3
-b = 5
-puts a + b
-sfaddsfa
-dag
-aga
