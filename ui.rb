@@ -1,6 +1,7 @@
 require './lib/turn'
 require './lib/game'
 require './lib/player'
+require './lib/Die'
 
 puts "welcome to Yacht Dice!\n\n"
 players = [Player.new("Player 1"), Player.new("Player 2")]
