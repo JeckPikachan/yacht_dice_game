@@ -6,7 +6,7 @@ require './lib/Die'
 puts "welcome to Yacht Dice!\n\n"
 players = [Player.new("Player 1"), Player.new("Player 2")]
 game = Game.new(players)
-die = Die.new
+die = Die.new(6)
 
 until game.over?
   players.each do |player|

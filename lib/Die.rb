@@ -6,6 +6,6 @@ class Die
   end
 
   def roll!
-    @roll = rand(1..6)
+    @roll = rand(1..@num_of_sides)
   end
 end
