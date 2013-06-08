@@ -20,7 +20,7 @@ class Turn
     num.each {|i| a << i}
     num_of_nums = []
     a.each do |i|
-      num_of_nums << a.count
+      num_of_nums << i.count
     end
     if num_of_nums.max == 5
       50
