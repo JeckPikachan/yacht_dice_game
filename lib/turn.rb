@@ -20,7 +20,7 @@ class Turn
     num.each {|i| a << i}
     num_of_nums = []
     a.each do |i|
-      num_of_nums << i.count
+      num_of_nums << @turn_points.count(i)
     end
     if num_of_nums.max == 5
       50
@@ -30,6 +30,8 @@ class Turn
       b
     elsif num_of_nums.select{|e| e == 3}.any? && num_of_nums.select{|e| e == 2}
       25
+    else
+      0
 
     end
   end
