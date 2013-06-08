@@ -13,3 +13,7 @@ until game.over?
     puts "You got #{player.points} points total.\n"
   end
 end
+puts "You're great person!!"
+a = 3
+b = 5
+puts a + b
