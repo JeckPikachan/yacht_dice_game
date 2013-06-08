@@ -10,7 +10,7 @@ die = Die.new
 until game.over?
   players.each do |player|
     puts "#{Player.name}, your turn!\n\n"
-    turn = Turn.new(player)
+    turn = Turn.new(player, die)
     turn.roll
     player.add_points(turn.points)
     puts "You got #{turn.points} points this turn.\n"
